@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: rgb(9 128 198 / 3.35);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: rgb(9 128 198 / 3.35);
   outline: none;
   text-decoration: none;
 }
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: rgb(9 128 198 / 35%);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -1116,8 +1116,8 @@ input[type="text"] {
   border: 2px solid rgb(9 128 198 / 35%);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: rgb(9 128 198 / 35%) !important;
+  border-color: rgb(9 128 198 / 35%) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
